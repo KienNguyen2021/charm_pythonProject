@@ -1,13 +1,15 @@
 contacts = {
-    "Jame" :
+    "Jame":
         {
-            "phone_number" : 123455667
-            "email" :  "jame.le@gmail.com"
+            "phone_number" : 123455667,
+            "email" :  "jame.le@gmail.com",
         },
-    "kile" :
+    "Kile":
         {
-            "phone_number" : 34452221111
-            "email"  : "kilenguyen@yahoo.com"
+            "phone_number" : 34452221111,
+            "email"  : "kilenguyen@yahoo.com",
         }
 }
-print(contacts["james"])
+print(contacts)    # print all key, and its value
+print("")
+print(contacts["Jame"]["email"])   # Print : key Jame and only value email
